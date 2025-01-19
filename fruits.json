@@ -1,0 +1,296 @@
+[
+    {
+        "name": "Rocket",
+        "price": "5,000$",
+        "rarity": "Common",
+        "img": "./images/rocket.jpeg",
+        "chance": 30
+    },
+    {
+        "name": "Spin",
+        "price": "7,500$",
+        "rarity": "Common",
+        "img": "./images/spin.jpeg",
+        "chance": 28
+    },
+    {
+        "name": "Blade",
+        "price": "30,000$",
+        "rarity": "Common",
+        "img": "./images/blade.jpeg",
+        "chance": 25
+    },
+    {
+        "name": "Spring",
+        "price": "60,000$",
+        "rarity": "Common",
+        "img": "./images/spring.jpeg",
+        "chance": 23
+    },
+    {
+        "name": "Bomb",
+        "price": "80,000$",
+        "rarity": "Common",
+        "img": "./images/bomb.jpeg",
+        "chance": 20
+    },
+    {
+        "name": "Smoke",
+        "price": "100,000$",
+        "rarity": "Common",
+        "img": "./images/smoke.jpeg",
+        "chance": 17
+    },
+    {
+        "name": "Spike",
+        "price": "180,000$",
+        "rarity": "Common",
+        "img": "./images/spike.jpeg",
+        "chance": 15
+    },
+    {
+        "name": "Flame",
+        "price": "250,000$",
+        "rarity": "Uncommon",
+        "img": "./images/flame.jpeg",
+        "chance": 12
+    },
+    {
+        "name": "Falcon",
+        "price": "300,000$",
+        "rarity": "Uncommon",
+        "img": "./images/falcon.jpeg",
+        "chance": 10
+    },
+    {
+        "name": "Ice",
+        "price": "350,000$",
+        "rarity": "Uncommon",
+        "img": "./images/ice.jpeg",
+        "chance": 10
+    },
+    {
+        "name": "Sand",
+        "price": "420,000$",
+        "rarity": "Uncommon",
+        "img": "./images/sand.jpeg",
+        "chance": 9
+    },
+    {
+        "name": "Dark",
+        "price": "500,000$",
+        "rarity": "Uncommon",
+        "img": "./images/dark.jpeg",
+        "chance": 8
+    },
+    {
+        "name": "Diamond",
+        "price": "600,000$",
+        "rarity": "Uncommon",
+        "img": "./images/diamond.jpeg",
+        "chance": 7
+    },
+    {
+        "name": "Light",
+        "price": "650,000$",
+        "rarity": "Rare",
+        "img": "./images/light.jpeg",
+        "chance": 5.5
+    },
+    {
+        "name": "Rubber",
+        "price": "750,000$",
+        "rarity": "Rare",
+        "img": "./images/rubber.jpeg",
+        "chance": 4
+    },
+    {
+        "name": "Barrier",
+        "price": "800,000$",
+        "rarity": "Rare",
+        "img": "./images/barrier.jpeg",
+        "chance": 5
+    },
+    {
+        "name": "Ghost",
+        "price": "940,000$",
+        "rarity": "Rare",
+        "img": "./images/ghost.jpeg",
+        "chance": 3.7
+    },
+    {
+        "name": "Magma",
+        "price": "960,000$",
+        "rarity": "Rare",
+        "img": "./images/magma.jpeg",
+        "chance": 3
+    },
+    {
+        "name": "Quake",
+        "price": "1,000,000$",
+        "rarity": "Legendary",
+        "img": "./images/quake.jpeg",
+        "chance": 3.5
+    },
+    {
+        "name": "Buddha",
+        "price": "1,200,000$",
+        "rarity": "Legendary",
+        "img": "./images/buddha.jpeg",
+        "chance": 1
+    },
+    {
+        "name": "Love",
+        "price": "1,300,000$",
+        "rarity": "Legendary",
+        "img": "./images/love.jpeg",
+        "chance": 3
+    },
+    {
+        "name": "Spider",
+        "price": "1,500,000$",
+        "rarity": "Legendary",
+        "img": "./images/spider.jpeg",
+        "chance": 2.7
+    },
+    {
+        "name": "Sound",
+        "price": "1,700,000$",
+        "rarity": "Legendary",
+        "img": "./images/sound.jpeg",
+        "chance": 2.2
+    },
+    {
+        "name": "Phoenix",
+        "price": "1,800,000$",
+        "rarity": "Legendary",
+        "img": "./images/phoenix.jpeg",
+        "chance": 2
+    },
+    {
+        "name": "Portal",
+        "price": "1,900,000$",
+        "rarity": "Legendary",
+        "img": "./images/portal.jpeg",
+        "chance": 1.4
+    },
+    {
+        "name": "Rumble",
+        "price": "2,100,000$",
+        "rarity": "Legendary",
+        "img": "./images/rumble.jpeg",
+        "chance": 1.5
+    },
+    {
+        "name": "Pain",
+        "price": "2,300,000$",
+        "rarity": "Legendary",
+        "img": "./images/pain.jpeg",
+        "chance": 1.9
+    },
+    {
+        "name": "Blizzard",
+        "price": "2,400,000$",
+        "rarity": "Legendary",
+        "img": "./images/blizzard.jpeg",
+        "chance": 1.8
+    },
+    {
+        "name": "Gravity",
+        "price": "2,500,000$",
+        "rarity": "Mythical",
+        "img": "./images/gravity.jpeg",
+        "chance": 1.2
+    },
+    {
+        "name": "Mammoth",
+        "price": "2,700,000$",
+        "rarity": "Mythical",
+        "img": "./images/mammoth.jpeg",
+        "chance": 0.6
+    },
+    {
+        "name": "T-Rex",
+        "price": "2,700,000$",
+        "rarity": "Mythical",
+        "img": "./images/t-rex.jpeg",
+        "chance": 0.1
+    },
+    {
+        "name": "Dough",
+        "price": "2,800,000$",
+        "rarity": "Mythical",
+        "img": "./images/dough.jpeg",
+        "chance": 0.4
+    },
+    {
+        "name": "Shadow",
+        "price": "2,900,000$",
+        "rarity": "Mythical",
+        "img": "./images/shadow.jpeg",
+        "chance": 1
+    },
+    {
+        "name": "Venom",
+        "price": "3,000,000$",
+        "rarity": "Mythical",
+        "img": "./images/venom.jpeg",
+        "chance": 0.3
+    },
+    {
+        "name": "Gas",
+        "price": "3,200,000$",
+        "rarity": "Mythical",
+        "img": "./images/gas.jpeg",
+        "chance": 0.05
+    },
+    {
+        "name": "Control",
+        "price": "3,200,000$",
+        "rarity": "Mythical",
+        "img": "./images/control.jpeg",
+        "chance": 0.09
+    },
+    {
+        "name": "Spirit",
+        "price": "3,400,000$",
+        "rarity": "Mythical",
+        "img": "./images/spirit.jpeg",
+        "chance": 0.08
+    },
+    {
+        "name": "Leopard",
+        "price": "5,000,000$",
+        "rarity": "Mythical",
+        "img": "./images/leopard.jpeg",
+        "chance": 0.05
+    },
+    {
+        "name": "Yeti",
+        "price": "5,000,000$",
+        "rarity": "Mythical",
+        "img": "./images/yeti.jpeg",
+        "chance": 0.03
+    },
+    {
+        "name": "Kitsune",
+        "price": "8,000,000$",
+        "rarity": "Mythical",
+        "img": "./images/kitsune.jpeg",
+        "chance": 0.02
+    },
+    {
+        "name": "East-Dragon",
+        "price": "15,000,000$",
+        "rarity": "Mythical",
+        "img": "./images/east-dragon.jpeg",
+        "chance": 0.005
+    },
+    {
+        "name": "West-Dragon",
+        "price": "15,000,000$",
+        "rarity": "Mythical",
+        "img": "./images/west-dragon.jpeg",
+        "chance": 0.005
+    }
+]

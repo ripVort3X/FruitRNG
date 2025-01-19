@@ -1,0 +1,198 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #19376d; /* Changed body background to medium blue */
+  overflow-x: hidden;
+  color: #a5d7e8; /* Light text color */
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #0b2447; /* Changed header background to dark blue */
+  color: #a5d7e8;
+  padding: 1.5em;
+  width: 100%;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  margin: 2em auto;
+  width: 90%;
+  max-width: 600px;
+  background-color: #576cbc; /* Medium background for content */
+  border-radius: 10px;
+  padding: 2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #19376d; /* Button background */
+  color: #a5d7e8;
+  padding: 0.8em 1.6em;
+  border: none;
+  border-radius: 8px;
+  margin: 1em;
+  cursor: pointer;
+  font-size: 1.1em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0b2447; /* Hover effect on buttons */
+}
+
+.hidden {
+  display: none;
+}
+
+.fruit-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.fruit-display img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
+#inventory-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.inventory-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8em;
+  border: 2px solid #19376d;
+  border-radius: 8px;
+  background-color: #576cbc; /* Medium blue inventory items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Sit on top of the page */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Make sure it's on top */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: rgb(194, 44, 44); /* Dark blue background */
+  padding: 2em;
+  border-radius: 8px;
+  width: 300px;
+  color: #8bddd1;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-buttons {
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-button {
+  background-color: #9cb9e3; /* Light button color */
+  color: red;
+  padding: 0.8em 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1em;
+  width: 45%;
+}
+
+.modal-button:hover {
+  background-color: #0b2447; /* Darker color on hover */
+  color: #a5d7e8;
+}
+
+#cooldown-timer {
+  margin: 2em auto;
+  padding: 1em;
+  border: 2px solid #19376d;
+  border-radius: 8px;
+  width: fit-content;
+  background-color: #576cbc;
+  font-size: 1.2em;
+  display: inline-block;
+  text-align: center;
+}
+
+#timer-text {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: #a5d7e8;
+}
+
+#time-remaining {
+  font-size: 1.5em;
+  color: #a5d7e8;
+}
+
+#reset-button {
+  background-color: #19376d; /* Light button for reset */
+  color: red;
+}
+
+#reset-button:hover {
+  background-color: red;
+  color: #19376d; /* Dark hover color */
+}
+
+@media (max-width: 500px) {
+  .options {
+    display: block;
+    padding: 0 10px;
+  }
+
+  button {
+    width: 100%;
+    margin: 0.5em 0;
+    padding: 1em;
+  }
+
+  .inventory-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .fruit-display img {
+    width: 100px;
+    height: 100px;
+  }
+}

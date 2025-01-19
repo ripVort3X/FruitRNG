@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruit RNG Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fruit RNG Game</h1>
+    </header>
+    <div id="resetModal" class="modal">
+      <div class="modal-content">
+        <h3>Are you sure?</h3>
+        <p>
+          This will remove all your fruits. Click "Yes" to proceed or "No" to
+          cancel.
+        </p>
+        <div class="modal-buttons">
+          <button id="confirm-reset" class="modal-button">Yes</button>
+          <button id="cancel-reset" class="modal-button">No</button>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div id="cooldown-timer">
+        <p id="timer-text">You can roll now</p>
+        <p id="time-remaining"></p>
+      </div>
+      <div class="options">
+        <button id="roll-button">Roll</button>
+        <button id="inventory-button">Inventory</button>
+        <button id="reset-button">Reset Inventory</button>
+      </div>
+      <div id="roll-result" class="hidden">
+        <h2>You Rolled:</h2>
+        <div class="fruit-display">
+          <img id="fruit-image" src="" alt="" />
+          <div id="fruit-info"></div>
+        </div>
+      </div>
+      <div id="inventory" class="hidden">
+        <h2>Your Inventory:</h2>
+        <div id="inventory-list"></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
