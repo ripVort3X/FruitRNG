@@ -10,6 +10,8 @@
     <header>
       <h1>Fruit RNG Game</h1>
     </header>
+
+    <!-- Modal for Reset Confirmation -->
     <div id="resetModal" class="modal">
       <div class="modal-content">
         <h3>Are you sure?</h3>
@@ -23,28 +25,37 @@
         </div>
       </div>
     </div>
+
     <main>
+      <!-- Cooldown Timer -->
       <div id="cooldown-timer">
         <p id="timer-text">You can roll now</p>
         <p id="time-remaining"></p>
       </div>
+
+      <!-- Options Section -->
       <div class="options">
         <button id="roll-button">Roll</button>
         <button id="inventory-button">Inventory</button>
         <button id="reset-button">Reset Inventory</button>
       </div>
+
+      <!-- Roll Result Section -->
       <div id="roll-result" class="hidden">
         <h2>You Rolled:</h2>
         <div class="fruit-display">
-          <img id="fruit-image" src="" alt="" />
+          <img id="fruit-image" src="" alt="Fruit image" />
           <div id="fruit-info"></div>
         </div>
       </div>
+
+      <!-- Inventory Section -->
       <div id="inventory" class="hidden">
         <h2>Your Inventory:</h2>
-        <div id="inventory-list"></div>
+        <div id="inventory-list" class="inventory-grid"></div>
       </div>
     </main>
+
     <script src="script.js"></script>
   </body>
 </html>
