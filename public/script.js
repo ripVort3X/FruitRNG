@@ -7,35 +7,6 @@ const resetButton = document.getElementById("reset-button");
 const confirmResetButton = document.getElementById("confirm-reset");
 const cancelResetButton = document.getElementById("cancel-reset");
 
-document.getElementById("inventory-button").addEventListener("click", () => {
-  const inventoryList = document.getElementById("inventory-list");
-  inventoryList.innerHTML = ""; // Clear existing inventory
-
-  const sortedInventory = Object.values(inventory).sort((a, b) => {
-    const priceA = parseInt(a.price.replace(/\D/g, ""));
-    const priceB = parseInt(b.price.replace(/\D/g, ""));
-    return priceB - priceA;
-  });
-
-  // Create cards for each fruit in inventory
-  sortedInventory.forEach((item) => {
-    const inventoryItem = document.createElement("div");
-    inventoryItem.classList.add("inventory-item");
-
-    inventoryItem.innerHTML = `
-      <div class="fruit-count">${item.count}</div>
-      <img src="${item.img}" alt="${item.name}">
-      <span>${item.name}</span>
-      <span>Price: ${item.price}</span>
-    `;
-
-    inventoryList.appendChild(inventoryItem);
-  });
-
-  document.getElementById("inventory").classList.remove("hidden");
-  document.getElementById("roll-result").classList.add("hidden");
-});
-
 // Fetch fruit data from JSON file or localStorage
 async function loadFruits() {
   const storedFruits = localStorage.getItem("fruits");
@@ -133,6 +104,8 @@ document.getElementById("roll-button").addEventListener("click", () => {
 
 // Event listener for the Inventory button
 document.getElementById("inventory-button").addEventListener("click", () => {
+  console.log("Current Inventory:", inventory); // Log inventory to verify data
+
   const inventoryList = document.getElementById("inventory-list");
   inventoryList.innerHTML = "";
 
@@ -145,10 +118,12 @@ document.getElementById("inventory-button").addEventListener("click", () => {
   sortedInventory.forEach((item) => {
     const inventoryItem = document.createElement("div");
     inventoryItem.classList.add("inventory-item");
+
     inventoryItem.innerHTML = `
       <img src="${item.img}" alt="${item.name}">
       <span>Price: ${item.price}</span>
-      <span>${item.name} - ${item.count}</span>
+      <span>${item.name}</span>
+      <div class="fruit-count">${item.count}</div>  <!-- Fruit count here -->
     `;
     inventoryList.appendChild(inventoryItem);
   });

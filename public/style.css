@@ -69,7 +69,6 @@ button:hover {
   margin-bottom: 1em;
 }
 
-/* Inventory list grid layout */
 #inventory-list {
   display: flex;
   flex-wrap: wrap;
@@ -84,13 +83,12 @@ button:hover {
   padding: 1em;
   border: 2px solid #19376d;
   border-radius: 12px;
-  background-color: #576cbc; /* Medium blue */
+  background-color: #576cbc;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .inventory-item:hover {
@@ -118,10 +116,10 @@ button:hover {
 .fruit-count {
   position: absolute;
   top: 5px;
-  right: 10px;
-  background-color: red;
+  right: 5px;
+  background-color: #19376d;
   color: white;
-  font-size: 0.9em;
+  font-size: 1em;
   font-weight: bold;
   padding: 0.2em 0.5em;
   border-radius: 50%;
