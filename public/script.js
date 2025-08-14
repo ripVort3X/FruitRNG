@@ -1,7 +1,7 @@
 let fruits = [];
 let inventory = {};
 let isCooldown = false;
-const cooldownTime = 2000; // Cooldown time in milliseconds
+const cooldownTime = 0; // Cooldown time in milliseconds
 const modal = document.getElementById("resetModal");
 const resetButton = document.getElementById("reset-button");
 const confirmResetButton = document.getElementById("confirm-reset");
